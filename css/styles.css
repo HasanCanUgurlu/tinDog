@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+
+.left-align {
+  text-align: left;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.features-h3 {
+  font-weight: 800;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+.wet-dog {
+  transform: rotate(25deg);
+  width: 70%;
+  position: absolute;
+}
+
+.row {
+  margin: 90px auto;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features  */
+#features {
+  font-family: "Montserrat";
+  padding: 5% 12%;
+  background-color: white;
+  position: relative;
+}
+
+.features-div {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff3c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  color: white;
+  background-color: #ff4c68;
+}
+
+.carousel-item {
+  padding: 5% 14%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION*/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  color: white;
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  padding: 7% 15%;
+}
+
+.cta-h3 {
+  font-size: 3.5rem;
+  line-height: 5rem;
+  font-weight: bold;
+}
+
+#footer {
+  padding: 7% 15%;
+  font-family: "Montserrat";
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .wet-dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
